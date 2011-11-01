@@ -1,0 +1,23 @@
+---
+layout: default
+title: SWUFE Drupal
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h1>Our Drupal Open Source Projects</h1>
+  <ul class="posts">
+    <li><a href="https://github.com/swufedrupal/drupal7-intermediate">Drupal 7 Intermediate:</a> A Starter Pack for Drupal 7, including multiple installation profiles, popular contrib modules and themes and Drupal's best development tools.</li>
+  </ul>
+</div>
+
+ <h1>Previously Built Sites</h1>
+ <ul class="posts">
+   <li>Site 1</li>
+</ul>
