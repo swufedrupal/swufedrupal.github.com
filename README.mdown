@@ -1,7 +1,9 @@
 # swufedrupal.github.com for SWUFE Drupal
 
 ## What is this?
+* Welcome to SWUFE Drupal. This is our github repo for our blog and basic pages. 
 
 ## Drupal Lessons
 
 ## Technologies
+* SWUFE Drupal's Github pages and blog was created using:  http://pages.github.com/
