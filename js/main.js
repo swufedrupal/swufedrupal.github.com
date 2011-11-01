@@ -19,7 +19,7 @@ $(function() {
       })
 
       $.each(data.repositories, function(i,item) {
-        if (item.description.substring(0,12).toLowerCase() == "wow addon - " && !item.description.match("fork")) {
+        if (item.description.match("Drupal")) {
           var row = $("<tr>").attr("id", "addon-"+item.name)
           $("<td>").addClass("addon_name").addClass("no_wrap").text(item.name).appendTo(row)
           $("<td>").addClass("addon_desc").text(item.description.substring(12)).appendTo(row)
