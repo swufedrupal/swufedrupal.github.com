@@ -21,7 +21,7 @@ $(function() {
       $.each(data.repositories, function(i,item) {
         if (item.description.match("Drupal")) {
           var row = $("<tr>").attr("id", "addon-"+item.name)
-          $("<td>").addClass("addon_name").addClass("no_wrap").text(item.name).appendTo(row)
+     $("<td>").addClass("addon_name").addClass("no_wrap").text(item.name).appendTo(row)
           $("<td>").addClass("addon_desc").text(item.description).appendTo(row)
           var last_cell = $("<td>").addClass("addon_links").addClass("no_wrap").addClass("right-text").addClass("padded_links").appendTo(row)
 
@@ -30,13 +30,8 @@ $(function() {
 
         }
       })
-
-      $.each(wowi_links, function(i,v) {
-        $("tr#addon-" + i + " td.addon_name").html(
-          $("<a>").attr("href", v).text(wowi_names[i] || i)
-        )
-      })
-    })
+ 
+   })
   })
 
   $(".showmorelink").remove()
