@@ -22,4 +22,4 @@ One of the most powerful Github.com features is how easy it is to fork a project
 
 Today, while I was doing some work on other projects for my Drupal class, I took a look at one feature I hadn't tried before: Github.com Pages. Basically, it's a git repo that you can convert into an html site. Or, if you want, use Jekyll to create a dynamic site or blog like this one!
 
--Mark (http://github.com/markwk)
+-[Mark](http://github.com/markwk)
