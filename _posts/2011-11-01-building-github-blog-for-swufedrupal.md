@@ -21,3 +21,5 @@ Basically, Github.com offers free GIT repos for any free and open source project
 One of the most powerful Github.com features is how easy it is to fork a project, make changes and then, if the changes are important ones, send a "pull request" back to the original repo. If those changes are good ones, BAM! the maintainers of the main project can accept your changes into the main repo. WOW! Social coding just got better. 
 
 Today, while I was doing some work on other projects for my Drupal class, I took a look at one feature I hadn't tried before: Github.com Pages. Basically, it's a git repo that you can convert into an html site. Or, if you want, use Jekyll to create a dynamic site or blog like this one!
+
+-Mark (http://github.com/markwk)
