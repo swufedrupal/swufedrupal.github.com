@@ -8,7 +8,7 @@ layout: nil
  <link href="http://swufedrupal.github.com/atom.xml" rel="self"/>
  <link href="http://swufedrupal.github.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://tom.preston-werner.com/</id>
+ <id>http://swufedrupal.github.com/</id>
  <author>
    <name>Mark Koester</name>
    <email>mwkteacher@gmail.com</email>
@@ -19,7 +19,7 @@ layout: nil
    <title>{{ post.title }}</title>
    <link href="http://swufedrupal.github.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://tom.preston-werner.com{{ post.id }}</id>
+   <id>http://swufedrupal.github.com/{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
