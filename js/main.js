@@ -22,7 +22,7 @@ $(function() {
         if (item.description.match("Drupal")) {
           var row = $("<tr>").attr("id", "addon-"+item.name)
           $("<td>").addClass("addon_name").addClass("no_wrap").text(item.name).appendTo(row)
-          $("<td>").addClass("addon_desc").text(item.description.substring(12)).appendTo(row)
+          $("<td>").addClass("addon_desc").text(item.description).appendTo(row)
           var last_cell = $("<td>").addClass("addon_links").addClass("no_wrap").addClass("right-text").addClass("padded_links").appendTo(row)
 
           last_cell.append($("<a>").text("Repo").attr("href", item.url))
