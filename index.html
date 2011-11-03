@@ -7,7 +7,14 @@ title: SWUFE Drupal
 <script type="text/javascript" src="/js/main.js"></script>
 
 <div id="home">
-  <h1>Blog Posts</h1>
+  <h1>Intro:</h1>
+  <p>This simple website / blog / lesson collection is for learning about Drupal and Basic Web Design and Development using Open Source Technologies.</p> 
+  <p>Students, Don't Forget: Our learning group website is located at: Language Corner @ <a href="http://swufe.language-corner.org">http://swufe.language-corner.org</a>.</p>
+
+<br />
+<hr />
+
+  <h1>Lessons + Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -19,7 +26,9 @@ title: SWUFE Drupal
 
 <h1>SWUFE Web Design and Drupal Learning Resources:</h1>
 <ul class="posts">
-  <li><a href="http://swufedrupal.github.com/html_css_basics">HTML and CSS Basics</a> is a series of basic html and html with css webpages to learn about HTML and CSS usage. <a href="http://swufedrupal.github.com/html_css_basics">Take a look at the site</a> or <a href="https://github.com/swufedrupal/drupal7-intermediate">clone the entire repo locally</a> to start learning and practicing with real code locally!</li>
+  <li><strong><a href="http://swufedrupal.github.com/html_css_basics">HTML and CSS Basics</a></strong> is a series of basic html and css webpages to learn how to use HTML and CSS. <a href="http://swufedrupal.github.com/html_css_basics">Take a look at the site</a> or <a href="https://github.com/swufedrupal/drupal7-intermediate">clone the entire repo locally</a> to start learning and practicing with real code locally!</li>
+  <li>Drupal 101: Check out the blog posts above for the most recent lessons.</li>
+  <li>Complete Summary of Drupal 7 Lessons (coming soon!)</li>
 </ul>
 
 <br />
