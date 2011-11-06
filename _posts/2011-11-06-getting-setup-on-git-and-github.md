@@ -15,11 +15,13 @@ I'd like to go over basic setup and basic GIT usage.
 ## Getting Setup with GIT
 
 Getting setup on GIT is relatively simple, but setup varies from system to system. Github.com has some great tutorials on getting setup on GIT and how to use Github.com for your version control:
+
 * [Initial Setup with Windows](http://help.github.com/win-set-up-git/)
 * [Initial Setup with Mac](http://help.github.com/mac-set-up-git/)
 * [Initial Setup with Linux](http://help.github.com/linux-set-up-git/)
 
 I recommend following the above tutorials, but to repeat, there are basically only a few steps:
+
 * Install GIT
 * Generate your public SSH Key (this is how you verify who you are between your computer and your GIT repositories)
 * Add your public SSH Key to Github.com (or whatever GIT system you are using)
@@ -33,6 +35,8 @@ It's recommended to configure your personal name, username and email with your G
 Go onto your command line tool, Terminal and run these commands:
 <code>
 $ git config --global user.name "Firstname Lastname"
+</code>
+<code>
 $ git config --global user.email "your_email@youremail.com"
 </code>
 
