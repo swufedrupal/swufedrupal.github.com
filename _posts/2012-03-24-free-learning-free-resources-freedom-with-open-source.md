@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Free Learning, Free Resource: Freedom in Open Source
+title: Free Learning, Free Resource, Freedom in Open Source
 ---
 
 {{ page.title }}
